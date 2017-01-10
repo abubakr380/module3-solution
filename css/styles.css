@@ -7,6 +7,10 @@ nav {
     padding-bottom: 40px;
 }
 
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
 .navbar-header button {
     margin-bottom: -30px;
     margin-top: -15px;
@@ -44,15 +48,15 @@ nav {
 }
 
 #chicken {
-    background: orange;
+    background: greenyellow;
 }
 
 #beef {
-    background: skyblue;
+    background: orange;
 }
 
 #sushi {
-    background: greenyellow;
+    background: skyblue;
 }
 
 @media (min-width: 1200px) {
